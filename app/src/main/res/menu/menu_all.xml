@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Tất cả"
+        android:icon="@drawable/ic_arrow_drop_down"
+        app:showAsAction="always">
+        <menu>
+            <item android:title="Tất cả"
+                android:id="@+id/menuAll"/>
+            <item android:title="Theo Tên"
+                android:id="@+id/menuName"/>
+            <item android:title="Theo Mã"
+                android:id="@+id/menuId"/>
+            <item android:title="Giải Thích"
+                android:id="@+id/menuExplain"/>
+        </menu>
+    </item>
+</menu>

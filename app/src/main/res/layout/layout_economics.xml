@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layoutIdLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtId"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="MÃ : "
+            android:textColor="@color/primarySecond"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/txtId"
+            android:text="CẤP : "
+            android:textColor="@color/primarySecond"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTitleName"
+        android:text="TÊN : "
+        android:textSize="20sp"
+        android:textColor="@color/primarySecond"
+        android:layout_below="@+id/layoutIdLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutIdLevel"
+        android:layout_toRightOf="@+id/txtTitleName"
+        android:text=""
+        android:textColor="@color/primarySecond"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
